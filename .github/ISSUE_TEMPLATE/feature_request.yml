@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a visual improvement or new area of Discord for Classic 98 to support
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for Classic 98? Share the visual improvement, component, or Discord interface you'd like to see supported.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature, styling improvement, or interface you'd like Classic 98 to cover.
+      placeholder: e.g. Add Windows 98-style styling to another Discord settings panel.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why would this be useful?
+      description: What would this improve for users of Classic 98?
+    validations:
+      required: false
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references
+      description: Screenshots, mockups, links, or other references that help explain your idea.
+      placeholder: Attach or link any useful examples.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Any other details you'd like to share.
+    validations:
+      required: false
