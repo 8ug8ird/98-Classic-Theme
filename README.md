@@ -12,8 +12,7 @@
 
 A Windows 98-inspired theme for BetterDiscord.
 
-Classic 98 recreates the classic Windows 98 interface in Discord, featuring traditional gray windows, beveled controls, and the iconic blue title bars.
-
+Classic 98 brings the Windows 98 look to Discord with classic gray windows, beveled controls, and blue title bars.
 </div>
 
 ## Preview
