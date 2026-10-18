@@ -6,9 +6,13 @@
 
 <div align="center">
 
+[![BetterDiscord](https://img.shields.io/badge/BetterDiscord-Theme-000080?style=for-the-badge&logo=discord&logoColor=white)](https://betterdiscord.app)
+[![Version](https://img.shields.io/badge/Version-1.0.0-008080?style=for-the-badge)](https://github.com/8ug8ird/98-Classic-Theme)
+[![License](https://img.shields.io/badge/License-MIT-C0C0C0?style=for-the-badge&labelColor=808080)](LICENSE)
+
 A Windows 98-inspired theme for BetterDiscord.
 
-Classic 98 brings the classic Windows 98 look to Discord, with gray surfaces, beveled buttons, traditional borders, and dark blue accents.
+Classic 98 recreates the classic Windows 98 interface in Discord, featuring traditional gray windows, beveled controls, and the iconic blue title bars.
 
 </div>
 
