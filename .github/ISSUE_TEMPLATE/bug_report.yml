@@ -21,7 +21,7 @@ body:
     id: betterdiscord-version
     attributes:
       label: BetterDiscord version
-      placeholder: "BD version"
+      placeholder: "e.g. 1.0.0"
     validations:
       required: true
 
