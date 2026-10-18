@@ -1,9 +1,16 @@
-# Classic 98
+<p align="center">
+  <a href="https://github.com/8ug8ird/98-Classic-Theme">
+    <img src="assets/classic98.png" alt="classic98" width="800">
+  </a>
+</p>
+
+<div align="center">
 
 A Windows 98-inspired theme for BetterDiscord.
 
 Classic 98 brings the classic Windows 98 look to Discord, with gray surfaces, beveled buttons, traditional borders, and dark blue accents.
 
+</div>
 
 ## Preview
 
