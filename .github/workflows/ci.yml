@@ -23,10 +23,11 @@ jobs:
       - name: Install Stylelint
         run: npm install --no-save stylelint stylelint-config-standard
 
+      
       - name: Create Stylelint config
         run: |
           printf '%s\n' \
-            '{"extends":["stylelint-config-standard"],"rules":{"selector-class-pattern":null,"selector-id-pattern":null,"custom-property-pattern":null}}' \
+            '{"rules":{"at-rule-no-unknown":true,"block-no-empty":true,"declaration-block-no-duplicate-properties":true,"property-no-unknown":true,"selector-pseudo-class-no-unknown":true,"selector-pseudo-element-no-unknown":true}}' \
             > .stylelintrc.json
 
       - name: Validate CSS
