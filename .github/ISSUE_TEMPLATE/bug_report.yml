@@ -1,0 +1,82 @@
+name: Bug Report
+description: Report a visual or functional issue
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening this issue, make sure you're using the latest version of Classic 98 and BetterDiscord.
+
+  - type: input
+    id: theme-version
+    attributes:
+      label: Classic 98 version
+      description: If you're using a local copy, mention the version or commit you're using.
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: betterdiscord-version
+    attributes:
+      label: BetterDiscord version
+      placeholder: "BD version"
+    validations:
+      required: true
+
+  - type: input
+    id: discord-version
+    attributes:
+      label: Discord version or client
+      description: Mention your Discord version and whether you're using the stable, PTB, or Canary client, if applicable.
+      placeholder: "e.g. Stable"
+    validations:
+      required: false
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What looks or behaves incorrectly? What did you expect to happen?
+      placeholder: Describe the issue as clearly as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can the issue be reproduced?
+      placeholder: |
+        1. Enable Classic 98
+        2. Open the affected Discord page or component
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected-area
+    attributes:
+      label: Affected area
+      description: Which Discord page, menu, or component is affected?
+      placeholder: e.g. Friends, server channels, settings, login page
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Screenshots are especially helpful for visual issues. Remove or obscure any personal information before posting.
+      placeholder: Attach screenshots showing the issue.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Mention other themes, plugins, or anything else that may help diagnose the issue.
+    validations:
+      required: false
