@@ -1,0 +1,33 @@
+
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate theme CSS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Install Stylelint
+        run: npm install --no-save stylelint stylelint-config-standard
+
+      - name: Create Stylelint config
+        run: |
+          printf '%s\n' \
+            '{"extends":["stylelint-config-standard"],"rules":{"selector-class-pattern":null,"selector-id-pattern":null,"custom-property-pattern":null}}' \
+            > .stylelintrc.json
+
+      - name: Validate CSS
+        run: npx stylelint Classic98.css Classic98.theme.css
