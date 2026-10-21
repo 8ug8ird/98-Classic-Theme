@@ -23,10 +23,10 @@ Classic 98 brings the Windows 98 look to Discord with classic gray windows, beve
 ![Classic 98 - Add Friend](assets/img1.png)
 
 ### Add Friend
-![Classic 98 - Server](assets/img2.png)
+![Classic 98 - Server](assets/addfriend.png)
 
 ### Server
-![Classic 98 - Login](assets/img3.png)
+![Classic 98 - Login](assets/server.png)
 
 ## Installation
 
