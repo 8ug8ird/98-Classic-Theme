@@ -17,6 +17,17 @@ Classic 98 brings the Windows 98 look to Discord with classic gray windows, beve
 
 <br>
 
+> [!WARNING]
+> **Future Discord client compatibility**
+>
+> Discord has announced plans to replace its Electron desktop client with a native Rust client. Classic 98 relies on BetterDiscord and the current interface’s HTML and CSS, so compatibility with the replacement is not guaranteed.
+>
+> Future support will depend on available theming tools and the new client’s interface. Significant changes to the theme may be required.
+>
+> Classic 98 has not been discontinued. This notice concerns future compatibility and does not indicate a current compatibility issue.
+
+<br>
+
 ## Preview
 
 ### Login
