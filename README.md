@@ -59,4 +59,4 @@ Feature requests and implementation-related changes can be submitted through [Pu
 
 <br>
 
-MIT © [8ug8ird](https://github.com/8ug8ird)
+[GPL-3.0](LICENSE) © [8ug8ird](https://github.com/8ug8ird)
