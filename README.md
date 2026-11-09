@@ -8,7 +8,7 @@
 
 [![BetterDiscord](https://img.shields.io/badge/BetterDiscord-Theme-000080?style=for-the-badge&logo=discord&logoColor=white)](https://betterdiscord.app)
 [![Latest Release](https://img.shields.io/github/v/release/8ug8ird/98-Classic-Theme?style=for-the-badge&label=Latest%20Release&color=008080)](https://github.com/8ug8ird/98-Classic-Theme/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-C0C0C0?style=for-the-badge&labelColor=808080)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-C0C0C0?style=for-the-badge&labelColor=808080)](LICENSE)
 
 A Windows 98-inspired theme for BetterDiscord.
 
